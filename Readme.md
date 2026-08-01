@@ -38,15 +38,6 @@ The ISS Tracker fetches live data from the ISS API and displays important inform
 
 ---
 
-## 🌐 API Used
-
-### Where The ISS At API
-
-```http
-GET https://api.wheretheiss.at/v1/satellites/25544
-```
-
----
 
 ## 📦 Example Response
 
@@ -102,19 +93,6 @@ ISS-Tracker/
 
 ---
 
-## 🚀 How to Run
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/ISS-Tracker.git
-```
-
-2. Open the project folder.
-
-3. Open `index.html` in your browser.
-
----
 
 ## 📸 Dashboard Preview
 

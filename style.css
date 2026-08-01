@@ -56,7 +56,6 @@ h2 {
   height: 50px;
   width: 165px;
   border-radius: 1rem 1rem 0 0;
-
 }
 
 .box1 {
@@ -92,4 +91,47 @@ h3 {
 .box1 .para10 {
   color: #38BDF8;
   margin-top: 5px;
+}
+
+
+@media (max-width: 440px){
+  .left {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.box {
+  border-radius:1rem;
+  border: 1px solid gray;
+  color: white;
+}
+
+.left img{
+  width: 420px;
+  height: 300px;
+  border-radius: 1rem;
+}
+.spna p {
+  font-size: 1rem;
+}
+.box1 {
+  border-radius: 1rem;
+  border: 1px solid gray;
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.nav-right {
+  height: 40px;
+  width: 122px;
+}
+
+.para10 {
+  font-size: 0.7rem;
+}
 }
